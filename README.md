@@ -1,8 +1,8 @@
-# 🛡️ SOC Automation Platform
+#  SOC Automation Platform
 
 A professional-grade Security Operations Center (SOC) Automation Platform built with React, Tailwind CSS, and ready for backend integration.
 
-## 🚀 Features
+##  Features
 
 ### Landing Page
 - **Hero Section** with animated backgrounds and compelling CTAs
@@ -19,7 +19,7 @@ A professional-grade Security Operations Center (SOC) Automation Platform built 
 - **Audit Logs** - Complete history of all system actions and automations
 - **Settings Panel** - Integration management for security tools (SIEM, EDR, Firewalls, etc.)
 
-## 🎨 Design System
+##  Design System
 
 ### Color Palette
 - **Background**: `#0A0F1F` (cyber-dark)
@@ -40,7 +40,7 @@ A professional-grade Security Operations Center (SOC) Automation Platform built 
 - Pulse animations for real-time indicators
 - Smooth transitions throughout
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: React 18 + Vite
 - **Styling**: Tailwind CSS
@@ -50,7 +50,7 @@ A professional-grade Security Operations Center (SOC) Automation Platform built 
 - **HTTP Client**: Axios
 - **State Management**: Zustand (optional - not yet implemented but ready)
 
-## 📦 Installation
+##  Installation
 
 1. **Install dependencies**:
 ```bash
@@ -72,7 +72,7 @@ npm run build
 npm run preview
 ```
 
-## 🌐 Routes
+##  Routes
 
 ### Public Routes
 - `/` - Landing Page
@@ -86,7 +86,7 @@ npm run preview
 - `/app/audit` - Audit Logs
 - `/app/settings` - Settings & Integrations
 
-## 🔌 API Integration
+##  API Integration
 
 The application is configured to integrate with backend APIs. All API calls are centralized in `/src/services/api.js`.
 
@@ -128,7 +128,7 @@ Currently using mock data functions in `api.js`. To connect to real backend:
 3. Comment out the mock data returns
 4. Add authentication tokens as needed
 
-## 📱 Responsive Design
+##  Responsive Design
 
 Fully responsive breakpoints:
 - **Mobile**: < 768px
@@ -145,7 +145,7 @@ Fully responsive breakpoints:
 - [ ] Set up CORS for cross-origin requests
 - [ ] Deploy backend and update API base URL
 
-## 🚀 Deployment
+##  Deployment
 
 ### Netlify
 ```bash
@@ -189,7 +189,7 @@ src/
 └── index.css                  # Global styles
 ```
 
-## 🎨 Customization
+##  Customization
 
 ### Colors
 Edit `tailwind.config.js` to customize the color scheme:
@@ -207,7 +207,7 @@ Add fonts in `index.html`:
 <link href="https://fonts.googleapis.com/css2?family=YourFont" rel="stylesheet">
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 This is a frontend-ready platform designed for integration with backend services. Key areas for enhancement:
 
@@ -218,11 +218,11 @@ This is a frontend-ready platform designed for integration with backend services
 5. **Performance**: Implement lazy loading and code splitting
 6. **Accessibility**: Enhance ARIA labels and keyboard navigation
 
-## 📄 License
+##  License
 
 This project is created for demonstration and educational purposes.
 
-## 🎯 Next Steps
+##  Next Steps
 
 1. Install dependencies: `npm install`
 2. Start dev server: `npm run dev`
@@ -231,7 +231,3 @@ This project is created for demonstration and educational purposes.
 5. Review API integration points in `/src/services/api.js`
 6. Build your backend to match the API endpoints
 7. Deploy and scale!
-
----
-
-**Built with ⚡ for the future of cybersecurity automation**
