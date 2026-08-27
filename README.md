@@ -231,3 +231,4 @@ This project is created for demonstration and educational purposes.
 5. Review API integration points in `/src/services/api.js`
 6. Build your backend to match the API endpoints
 7. Deploy and scale!
+
